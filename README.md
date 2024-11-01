@@ -11,8 +11,11 @@ Essentially the way the code works is as follows
 
 From here, we could plot the GIs, however, since we're iterrating, we do this instead.
 Note, this is kind of a black box since we are iterating, but you can iterrogate GI distributions if you just do steps 1-4.
+
 5a) Repeat steps 1-4 for each parameter value (E.g. beta=0.5, 0.4, 0.3. etc) then plot the GI mean curves for each (Plotting)
+
 OR
+
 5b) Repeat steps 1-4 for each combination of parameter values. Then store points of interest during iteration (deviations), then plot these with a heatmap (HEATMAP).
 
 Now, for the plotting code, there is also the option to iterrate based on the linear variable change code. Where we can iterrate on. 1) Initial starting parameter, timing of an induced change, magnitude of an induced change (per timestep).
