@@ -18,4 +18,4 @@ OR
 
 5b) Repeat steps 1-4 for each combination of parameter values. Then store points of interest during iteration (deviations), then plot these with a heatmap (HEATMAP).
 
-Now, for the plotting code, there is also the option to iterrate based on the linear variable change code. Where we can iterrate on. 1) Initial starting parameter, timing of an induced change, magnitude of an induced change (per timestep).
+Now, for the plotting code, there is also the option to iterrate based on the linear variable change code. Where we can iterrate on. 1) Initial starting parameter 2) timing of an induced change 3) or magnitude of an induced change (per timestep).
